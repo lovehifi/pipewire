@@ -281,7 +281,7 @@ static void do_refresh(struct data *d)
 
 	wclear(d->win);
 	wattron(d->win, A_REVERSE);
-	wprintw(d->win, "%-*.*s", COLS, COLS, "S   ID PERIOD/RATE      WAIT    BUSY   W/P   B/P  ERR  NAME ");
+	wprintw(d->win, "%-*.*s", COLS, COLS, "S   ID  PERIOD/RATE     WAIT    BUSY   W/P   B/P  ERR  NAME ");
 	wattroff(d->win, A_REVERSE);
 	wprintw(d->win, "\n");
 
