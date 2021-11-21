@@ -6,4 +6,4 @@ else
 fi
 INFO=$(cat /proc/cpuinfo | grep Serial)
 R=$(echo $INFO | tr " " "\n" | tail -1)
-echo $M$R
+echo 324301:ab:bf:$M$R66700
